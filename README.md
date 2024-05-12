@@ -49,7 +49,7 @@ int main() {
 
 int obliczSume(int pierwszaLiczba, int drugaLiczba)
 {
-    // deklaracja funkcji
+    // ciało funkcji
 }
 ```
 
@@ -61,7 +61,7 @@ int obliczSume(int pierwszaLiczba, int drugaLiczba)
 Java jest używana BARDZO rzadko na egzaminach zawodowych, stąd taka decyzja.
 
 > ### Jak zasugerować rozwiązanie arkusza?
-Możesz stworzyć **[pull request](https://github.com/ruxixa/INF-04-rozwiazania/pulls)**
+Możesz stworzyć **[pull request](https://github.com/ruxixa/INF-04-rozwiazania/pulls)**, wysyłając link do arkusza
 
 > ### Jak dodać własne rozwiązanie?
 Stwórz kontrybucje. Opisałem to dokładnie w sekcji **Kontrybucje**
