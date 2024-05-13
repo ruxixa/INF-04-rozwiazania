@@ -44,8 +44,15 @@ CMakeFiles/
 *.app
 
 # Ignorowane foldery
-/build__linux
-/out
-/build
-/.vscode
-/.vs
+/build__linux/
+/build/
+/.vscode/
+/.vs/
+/
+/out/
+
+# Foldery generowane przez Visual Studio
+/ipch/
+/*.VC.db
+/*.VC.VC.opendb
+/obj/
