@@ -19,13 +19,14 @@
 #include <string>
 #include <map>
 
-
-/* Funkcja sprawdzPlec - funkcja sprawdzająca pleć
-* 
-*  Funkcja sprawdzPlec sprawdza płeć na podstawie numeru PESEL.
-* 
-*  @param pesel - numer PESEL
-*  @return znak (K - kobieta, M - mężczyzna)
+/*
+**********************************************
+nazwa funkcji: sprawdzPlec
+opis funkcji: funkcja sprawdzająca płeć na podstawie numeru PESEL
+parametry: pesel - numer PESEL
+zwracany typ i opis: char - znak reprezentujący płeć (K - kobieta, M - mężczyzna)
+autor: ruxixa
+***********************************************
 */
 
 // deklaracja funkcji sprawdzPlec
@@ -45,14 +46,15 @@ char sprawdzPlec(std::string pesel) {
 	return 'M';
 }
 
-/* Funkcja sprawdzSumeKontrolna - funkcja sprawdzająca 
-*  poprawność numeru PESEL
-* 
-*  Funkcja sprawdzSumeKontrolna sprawdza poprawność numeru PESEL
-*  na podstawie sumy kontrolnej.
-* 
-*  @param pesel - numer PESEL
-*  @return wartość logiczna (true - poprawny, false - niepoprawny)
+/*
+**********************************************
+nazwa funkcji: sprawdzSumeKontrolna
+opis funkcji: funkcja sprawdzająca sumę kontrolną numeru PESEL
+parametry: pesel - numer PESEL
+zwracany typ i opis: bool - wartość logiczna 
+(true - poprawna suma kontrolna, false - niepoprawna suma kontrolna)
+autor: ruxixa
+***********************************************
 */
 
 // deklaracja funkcji sprawdzSumeKontrolna
@@ -123,12 +125,14 @@ bool sprawdzSumeKontrolna(std::string pesel) {
 	return false;
 }
 
-/* Funkcja main - główna funkcja programu
-*
-*  Funkcja main jest punktem wejścia do programu.
-*  Program zaczyna swoje działanie od funkcji main.
-*
-*  @return liczba całkowita (1 - błąd, 0 - sukces)
+/*
+**********************************************
+nazwa funkcji: main
+opis funkcji: funkcja główna programu
+// parametry: bra
+zwracany typ i opis: int - wartość logiczna (0 - brak błędów, 1 - błąd)
+autor: ruxixa
+***********************************************
 */
 
 // deklaracja funkcji main

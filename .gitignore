@@ -1,2 +1,51 @@
-# Ignoruj katalog .vscode
-.vscode/
+# Pliki generowane przez Visual Studio dla C#
+*.suo
+*.user
+*.sln.cache
+*.csproj.user
+*.pdb
+*.dll
+*.exe
+
+# Pliki generowane przez Python
+__pycache__/
+*.py[cod]
+
+# Pliki generowane przez CMake dla C++
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+
+# Obiekty
+*.slo
+*.lo
+*.o
+*.obj
+
+# Prekompilowane nagłówki
+*.gch
+*.pch
+
+# Biblioteki statyczne
+*.so
+*.dylib
+*.dll
+
+# Pliki konfiguracyjne
+*.lai
+*.la
+*.a
+*.lib
+
+# Pliki wykonywalne
+*.exe
+*.out
+*.app
+
+# Ignorowane foldery
+/build__linux
+/out
+/build
+/.vscode
+/.vs
