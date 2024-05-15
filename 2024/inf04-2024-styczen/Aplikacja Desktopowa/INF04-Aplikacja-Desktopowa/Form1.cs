@@ -1,7 +1,19 @@
-// g³ówna przestrzeñ nazw aplikacji
+/* Autor: ruxixa 
+*  
+*  Plik: Form1.cs
+*  
+*  Data: 12.05.2024
+*  Egzamin: INF-04 StyczeÅ„ 2024 
+*  Zadanie: 1
+*
+*  Repozytorium: https://github.com/ruxixa/INF-04-rozwiazania
+*  Licencja: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication 
+*/
+
+// gï¿½ï¿½wna przestrzeï¿½ nazw aplikacji
 namespace INF04_Aplikacja_Desktopowa
 {
-    // klasa Paszport dziedzicz¹ca po Form
+    // klasa Paszport dziedziczï¿½ca po Form
     public partial class Paszport : Form
     {
         // inicjalizacja zmiennych
@@ -13,9 +25,9 @@ namespace INF04_Aplikacja_Desktopowa
         /*
         **********************************************
         nazwa funkcji: OkButtonClick
-        opis funkcji: Funkcja wywo³ywana po naciœniêciu przycisku OK. 
-                      Sprawdza czy wszystkie pola s¹ wype³nione i czy zaznaczono kolor oczu.
-        parametry: sender - obiekt, który wywo³a³ funkcjê
+        opis funkcji: Funkcja wywoï¿½ywana po naciï¿½niï¿½ciu przycisku OK. 
+                      Sprawdza czy wszystkie pola sï¿½ wypeï¿½nione i czy zaznaczono kolor oczu.
+        parametry: sender - obiekt, ktï¿½ry wywoï¿½aï¿½ funkcjï¿½
                    e - argumenty zdarzenia
         zwracany typ i opis: brak
         autor: ruxixa
@@ -30,18 +42,21 @@ namespace INF04_Aplikacja_Desktopowa
 
             if (selectedRadioButton == null)
             {
-                // Nie zaznaczono ¿adnego RadioButton.
+                // Nie zaznaczono ï¿½adnego RadioButton.
                 MessageBox.Show("Wybierz kolor oczu!");
                 return;
             }
 
+            // pobranie wartoï¿½ci z pï¿½l
             string imie = imieInput.Text;
             string nazwisko = nazwiskoInput.Text;
             string numer = numerInput.Text;
 
+            // sprawdzenie czy wszystkie pola sï¿½ wypeï¿½nione
             if (string.IsNullOrEmpty(imie) || string.IsNullOrEmpty(nazwisko) || string.IsNullOrEmpty(numer))
             {
-                MessageBox.Show("Wype³nij wszystkie pola!");
+                // Nie wypeï¿½niono wszystkich pï¿½l.
+                MessageBox.Show("Wypeï¿½nij wszystkie pola!");
                 return;
             }
         }
@@ -49,23 +64,24 @@ namespace INF04_Aplikacja_Desktopowa
         /*
         **********************************************
         nazwa funkcji: NumerInputChangeValue
-        opis funkcji: Funkcja wywo³ywana po zmianie wartoœci w polu numer. 
-                      Wyœwietla zdjêcie cz³owieka i odcisk palca na podstawie numeru.
-        parametry: sender - obiekt, który wywo³a³ funkcjê
+        opis funkcji: Funkcja wywoï¿½ywana po zmianie wartoï¿½ci w polu numer. 
+                      Wyï¿½wietla zdjï¿½cie czï¿½owieka i odcisk palca na podstawie numeru.
+        parametry: sender - obiekt, ktï¿½ry wywoï¿½aï¿½ funkcjï¿½
                    e - argumenty zdarzenia
         zwracany typ i opis: brak
         autor: ruxixa
         ***********************************************
         */
+
         private void NumerInputChangeValue(object sender, EventArgs e)
         {
             // tablica z numerami
             string[] numery = ["000", "111", "333"];
 
-            // sprawdzenie czy numer znajduje siê w tablicy
+            // sprawdzenie czy numer znajduje siï¿½ w tablicy
             if (numery.Contains(numerInput.Text))
             {
-                // wyœwietlenie zdjêcia cz³owieka i odcisku palca
+                // wyï¿½wietlenie zdjï¿½cia czï¿½owieka i odcisku palca
                 czlowiekImage.Image = Image.FromFile($"assets/{numerInput.Text}-zdjecie.jpg");
                 odciskImage.Image = Image.FromFile($"assets/{numerInput.Text}-odcisk.jpg");
             }

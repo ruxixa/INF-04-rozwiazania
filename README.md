@@ -25,5 +25,3 @@ Możesz stworzyć **[pull request](https://github.com/ruxixa/INF-04-rozwiazania/
 
 > ### Jak dodać własne rozwiązanie?
 Stwórz kontrybucje. Opisałem to dokładnie w sekcji **Kontrybucje**
-
-## Przykładowe rozwiązania:

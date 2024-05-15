@@ -1,4 +1,17 @@
-﻿namespace INF04_Aplikacja_Desktopowa
+﻿/* Autor: ruxixa 
+*  
+*  Plik: Form1.Designer.cs
+*  
+*  Data: 12.05.2024
+*  Egzamin: INF-04 Styczeń 2024 
+*  Zadanie: 1
+*
+*  Repozytorium: https://github.com/ruxixa/INF-04-rozwiazania
+*  Licencja: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication 
+*/
+
+// g��wna przestrze� nazw aplikacji
+namespace INF04_Aplikacja_Desktopowa
 {
     partial class Paszport
     {

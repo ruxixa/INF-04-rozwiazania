@@ -12,7 +12,7 @@
 CMAKE_MINIMUM_REQUIRED_VERSION(3.0)
 
 # Ustawiamy nazwę projektu
-PROJECT(Zadanie 1 - INF-04 C++ - Styczen 2023)
+PROJECT(Zadanie 1 - INF-04 C++ - Styczen 2024)
 
 # Ustawiamy standard C++ na C++11
 SET(CMAKE_CXX_STANDARD 11)

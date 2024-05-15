@@ -1,6 +1,6 @@
 /* Autor: ruxixa 
 *  
-*  Plik: main.cpp
+*  Plik: Program.cs
 *  
 *  Data: 12.05.2024
 *  Egzamin: INF-04 Styczeń 2024 
