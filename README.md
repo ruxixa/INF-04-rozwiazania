@@ -11,6 +11,16 @@ Rozwiązania są dostępne w językach:
 - C++
 - C#
 
+## Dostępne Rozwiązania
+
+| Arkusz        | Rozwiązany | Aplikacja Konsolowa | Aplikacja Desktopowa |
+| ------------- |:----------:|:-------------------:|:--------------------:|
+| Styczeń 2024  | ☑️         | C++, Python, C#     | C#                   |
+| Czerwiec 2023 | ☑️         | C++, Python, C#     | C#                   |
+| Styczeń 2023  | ✏️         | Python              | -                    |
+| Czerwiec 2022 | ✏️         | -                   | -                    |
+| Styczeń 2022  | ✏️         | -                   | -                    |
+
 ## Błędy i inne problemy
 
 Niestety każemu zdarza się popełniać błędy. Dlatego jeżeli zauważysz jakiekolwiek niedociągnięcia w rozwiązaniu zadania lub sposobie jego wykonania, popraw mnie poprzez kontrybucje lub zgłoszenie "issue" opisując problem. Możesz również zasugerować dodanie konkretnego rozwiązania poprzez otwieranie "pull request".
