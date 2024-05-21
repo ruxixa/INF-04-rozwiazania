@@ -18,8 +18,8 @@ Rozwiązania są dostępne w językach:
 | Styczeń 2024  | ☑️         | C++, Python, C#     | C#                   |
 | Czerwiec 2023 | ☑️         | C++, Python, C#     | C#                   |
 | Styczeń 2023  | ✏️         | Python              | -                    |
-| Czerwiec 2022 | ✏️         | -                   | -                    |
-| Styczeń 2022  | ✏️         | -                   | -                    |
+| Czerwiec 2022 | ❌         | -                   | -                    |
+| Styczeń 2022  | ❌         | -                   | -                    |
 
 ## Błędy i inne problemy
 
