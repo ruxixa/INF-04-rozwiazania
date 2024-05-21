@@ -17,7 +17,7 @@ Rozwiązania są dostępne w językach:
 | ------------- |:----------:|:-------------------:|:--------------------:|
 | Styczeń 2024  | ☑️         | C++, Python, C#     | C#                   |
 | Czerwiec 2023 | ☑️         | C++, Python, C#     | C#                   |
-| Styczeń 2023  | ✏️         | Python              | -                    |
+| Styczeń 2023  | ✏️         | C++, Python         | -                    |
 | Czerwiec 2022 | ❌         | -                   | -                    |
 | Styczeń 2022  | ❌         | -                   | -                    |
 
@@ -27,7 +27,7 @@ Niestety każemu zdarza się popełniać błędy. Dlatego jeżeli zauważysz jak
 
 ## Najczęściej zadawane pytania:
 
-> ### Dlaczego nie ma rozwiązań w javie?
+> ### Dlaczego nie ma rozwiązań w Javie?
 Java jest używana BARDZO rzadko na egzaminach zawodowych, stąd taka decyzja.
 
 > ### Jak zasugerować rozwiązanie arkusza?

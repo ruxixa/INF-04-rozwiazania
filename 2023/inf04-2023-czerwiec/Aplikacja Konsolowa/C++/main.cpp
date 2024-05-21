@@ -30,6 +30,13 @@ std::vector<int> wypelnij_tablice(std::vector<bool>& A) {
     int n = A.size() - 1;
 
     // Algorytm Eratostenesa
+
+    // Funkcja sqrt zwraca pierwiastek kwadratowy z n
+    // Równie dobrze można użyć n ** 0.5
+    //
+    // Wtedy będzie to wyglądać tak:
+    // for (int i = 2; i <= n ** 0.5; ++i) { ... }
+
     for (int i = 2; i <= std::sqrt(n); ++i) {
         if (A[i] == true) {
             for (int j = 2 * i; j <= n; j += i) {
