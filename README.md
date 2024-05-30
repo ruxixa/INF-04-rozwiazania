@@ -17,7 +17,7 @@ Rozwiązania są dostępne w językach:
 | ------------- |:----------:|:-------------------:|:--------------------:|
 | Styczeń 2024  | ☑️         | C++, Python, C#     | C#                   |
 | Czerwiec 2023 | ☑️         | C++, Python, C#     | C#                   |
-| Styczeń 2023  | ✏️         | C++, Python         | -                    |
+| Styczeń 2023  | ☑️         | C++, Python         | C#                   |
 | Czerwiec 2022 | ❌         | -                   | -                    |
 | Styczeń 2022  | ❌         | -                   | -                    |
 
