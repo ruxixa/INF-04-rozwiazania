@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "INF-04 Aplikacja Desktopowa/1.0.0": {
+        "runtime": {
+          "INF-04 Aplikacja Desktopowa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "INF-04 Aplikacja Desktopowa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

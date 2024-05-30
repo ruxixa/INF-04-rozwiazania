@@ -24,6 +24,9 @@
  * autor: ruxixa
  * ***********************************************
 */
+int nwd(int a, int b); 
+// ^^^ idiotyczny zapis, ale CKE tak chce
+
 int nwd(int a, int b) {
     // dopóki liczby a i b są różne
     while (a != b) {
