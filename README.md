@@ -23,7 +23,7 @@ Rozwiązania są dostępne w językach:
 
 ## Błędy i inne problemy
 
-Niestety każemu zdarza się popełniać błędy. Dlatego jeżeli zauważysz jakiekolwiek niedociągnięcia w rozwiązaniu zadania lub sposobie jego wykonania, popraw mnie poprzez kontrybucje lub zgłoszenie "issue" opisując problem. Możesz również zasugerować dodanie konkretnego rozwiązania poprzez otwieranie "pull request".
+Niestety każemu zdarza się popełniać błędy. Dlatego jeżeli zauważysz jakiekolwiek niedociągnięcia w rozwiązaniu zadania lub sposobie jego wykonania, popraw mnie poprzez kontrybucje lub zgłoszenie "issue" opisując problem.
 
 ## Najczęściej zadawane pytania:
 
@@ -31,7 +31,4 @@ Niestety każemu zdarza się popełniać błędy. Dlatego jeżeli zauważysz jak
 Java jest używana BARDZO rzadko na egzaminach zawodowych, stąd taka decyzja.
 
 > ### Jak zasugerować rozwiązanie arkusza?
-Możesz stworzyć **[pull request](https://github.com/ruxixa/INF-04-rozwiazania/pulls)**, wysyłając link do arkusza
-
-> ### Jak dodać własne rozwiązanie?
-Stwórz kontrybucje. Opisałem to dokładnie w sekcji **Kontrybucje**
+Możesz stworzyć **[issue](https://github.com/ruxixa/INF-04-rozwiazania/issues)**, wysyłając link do arkusza
